@@ -1,6 +1,7 @@
+# To generate a vector of random numbers with a normal distribution:
 x <-rnorm(5)
 x
-
+# Another example on vector math
 N <-100000
 a <-rnorm(N)
 b <- rnorm(N)
@@ -8,12 +9,13 @@ b <- rnorm(N)
 #Vectorized approach
 c <- a * b
 c
-
+# visualize the random numbers with normal distribution 
 X <- rnorm(5)
 X 
 plot(X)
 hist(X)
-
+# visualize the random numbers with normal distribution with n,mean,standard deviation
+# multiple examples with the data
 X<- rnorm( 5, 10, 1)
 X
 plot(X)
